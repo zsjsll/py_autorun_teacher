@@ -1,2 +1,4 @@
 *.exe
 *.png
+
+/__pycache__
