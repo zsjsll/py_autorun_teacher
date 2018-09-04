@@ -12,8 +12,8 @@ browser = webdriver.Chrome(
     executable_path='D:/autorun/chromedriver/chromedriver.exe',
     chrome_options=chromeOptions)
 
-myUsername = "xfy6367"
-myPassword = "123456"
+myUsername = "输入用户名"
+myPassword = "输入密码"
 
 browser.get(
     "http://luliang2018.w.px.teacher.com.cn/userIndex/12605181/student")
