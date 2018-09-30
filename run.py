@@ -9,7 +9,7 @@ from PIL import Image
 
 chromeOptions = webdriver.ChromeOptions()
 browser = webdriver.Chrome(
-    executable_path='D:/autorun/chromedriver/chromedriver.exe',
+    executable_path='D:/py_autorun_teacher/chromedriver/chromedriver.exe',
     chrome_options=chromeOptions)
 
 myUsername = "输入用户名"
