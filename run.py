@@ -12,8 +12,8 @@ browser = webdriver.Chrome(
     executable_path='D:/py_autorun_teacher/chromedriver/chromedriver.exe',
     chrome_options=chromeOptions)
 
-myUsername = "输入用户名"
-myPassword = "输入密码"
+myUsername = "xfy6367"
+myPassword = "123456"
 
 browser.get(
     "http://luliang2018.w.px.teacher.com.cn/userIndex/12605181/student")
@@ -42,7 +42,7 @@ code.click()
 # print(code_url)
 
 #通过截图的方式来获取验证码
-f = r'/autorun/code/code.png'
+f = r'/py_autorun_teacher/code/code.png'
 browser.save_screenshot(f)
 #获取图片坐标
 code_element = browser.find_element_by_css_selector('img[id="validateCode"]')
